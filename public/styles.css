@@ -10620,6 +10620,7 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
@@ -10630,6 +10631,7 @@ header.masthead .masthead-heading {
   display: block;
   margin: 0 auto;
 }
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
