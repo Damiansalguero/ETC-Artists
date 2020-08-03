@@ -430,6 +430,10 @@ h6,
 #menu-logo {
   font-family: "Monoton", cursive;
 }
+
+#iframe {
+  display: none;
+}
 /********************************* Personal Styles ***********************************  */
 
 .lead {
