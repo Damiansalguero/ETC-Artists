@@ -426,15 +426,6 @@ h6,
 .h6 {
   font-size: 1rem;
 }
-/********************************* Personal Styles ***********************************  */
-#menu-logo {
-  font-family: "Monoton", cursive;
-}
-
-#iframe {
-  display: none;
-}
-/********************************* Personal Styles ***********************************  */
 
 .lead {
   font-size: 1.25rem;
@@ -523,6 +514,15 @@ mark,
 .img-fluid {
   width: 100%;
   height: fit-content;
+}
+
+.raul {
+  height: 100%;
+}
+
+.img-fluid-circle {
+  width: 100%;
+  height: auto;
 }
 
 .img-thumbnail {
@@ -5783,7 +5783,7 @@ a.close.disabled {
 
 .modal-dialog {
   position: relative;
-  width: auto;
+  width: 75%;
   margin: 0.5rem;
   pointer-events: none;
 }
@@ -10678,12 +10678,9 @@ header.masthead .masthead-heading {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
   max-width: 100vw;
 }
 .portfolio-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
@@ -10970,3 +10967,20 @@ section#contact form#contactForm :-ms-input-placeholder {
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+/********************************* Personal Styles ***********************************  */
+#menu-logo {
+  font-family: "Monoton", cursive;
+}
+
+#iframe {
+  display: none;
+}
+.modal-button {
+  margin-top: 20px;
+}
+
+#king {
+  justify-content: center;
+}
+/********************************* Personal Styles ***********************************  */
