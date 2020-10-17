@@ -9,6 +9,9 @@ app.get("/", function (req, res) {
   res.render("landing");
 });
 
+app.get("/2", function (req, res) {
+  res.render("landing2");
+});
 app.listen(8080, function () {
   console.log("LISTENING");
 });
