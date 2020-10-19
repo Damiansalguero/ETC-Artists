@@ -10633,13 +10633,13 @@ header.masthead .masthead-heading {
   margin-left: auto;
   margin-right: auto;
 }
-#portfolio .portfolio-item .portfolio-link {
+#portfolio .portfolio-item .header-masthead {
   position: relative;
   display: block;
   margin: 0 auto;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .header-masthead .portfolio-hover {
   display: flex;
   position: absolute;
   width: 100%;
@@ -10652,13 +10652,13 @@ header.masthead .masthead-heading {
 }
 #portfolio
   .portfolio-item
-  .portfolio-link
+  .header-masthead
   .portfolio-hover
   .portfolio-hover-content {
   font-size: 1.25rem;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+#portfolio .portfolio-item .header-masthead:hover .portfolio-hover {
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-caption {
